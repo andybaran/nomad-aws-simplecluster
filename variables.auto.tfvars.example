@@ -1,8 +1,10 @@
 # Terraform variables (all are required)
-ami = "ami-0c34c49914a2eb5c3"
-region = "us-east-2"
+ami = "ami-00e40d6ceb21b0a22" # This will come from the packer build process
+region = "us-east-2"  # Must be the same region as your packer build 
 allowlist_ip = "75.143.169.7/32"
 client_instance_type = "m7i.xlarge"
+ssh_pubkey = "ssh-rsa AAAAAA234wfefy34tfsdft34fsdgt345tswaf34cwrt bob@bobsburgerlaptop.home.com" # Your public SSH key for SSH'ing onto Nomad nodes directly if needed
+
 
 # These variables will default to the values shown
 # and do not need to be updated unless you want to
