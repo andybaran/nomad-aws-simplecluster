@@ -1,2 +1,2 @@
-# nomad-aws-simplecluster
-Simple Nomad cluster with 3 clients on AWS
+# Set up a Nomad cluster on AWS
+

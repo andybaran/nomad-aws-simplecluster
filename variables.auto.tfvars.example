@@ -1,0 +1,16 @@
+# Terraform variables (all are required)
+ami = "ami-0c34c49914a2eb5c3"
+region = "us-east-2"
+allowlist_ip = "75.143.169.7/32"
+client_instance_type = "m7i.xlarge"
+
+# These variables will default to the values shown
+# and do not need to be updated unless you want to
+# change them
+# allowlist_ip            = "0.0.0.0/0"
+# ami                     = "ami-3453453453454353"
+# name                    = "nomad"
+# server_instance_type    = "t2.micro"
+# server_count            = "3"
+# client_instance_type    = "t2.micro"
+# client_count            = "3"
